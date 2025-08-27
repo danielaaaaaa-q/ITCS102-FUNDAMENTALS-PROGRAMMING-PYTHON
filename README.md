@@ -30,3 +30,15 @@ Repository of Computer Program developed in Python for our subject ITCS102 - Fir
 
 [Activity10](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity10.py)
 - the selection statement
+
+[Code_challenge1](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge1.py)
+- diamond yarn
+
+[Code_challenge2](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge2.py)
+- bank
+
+[Code_challenge3](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge3.py)
+- log-in
+
+[Code_challenge4](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge4.py)
+- even or odd?
