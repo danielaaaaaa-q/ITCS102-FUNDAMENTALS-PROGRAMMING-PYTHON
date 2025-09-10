@@ -66,5 +66,8 @@ if genre_choice == "3":  # Horror
     elif how_long == "long" and year == 2010:
         print("For long manga recommendations from around the 2010s, consider collection such as: ", "\n -\"Terra Formars\" by Yu Sasuga", "\n -\"Chainsaw Man\" by Tatsuki Fujimoto")
 
+else: 
+    print("Invalid genre choice. Please restart the program and select a valid option.")
 
 print("\nThank you for using the Manga Reader Recommender. Happy reading!")
+
