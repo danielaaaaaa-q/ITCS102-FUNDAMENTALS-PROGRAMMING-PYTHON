@@ -31,6 +31,18 @@ Repository of Computer Program developed in Python for our subject ITCS102 - Fir
 [Activity10](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity10.py)
 - the selection statement
 
+[Activity11](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity11.py)
+- temperature
+
+[Activity12](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity12.py)
+- loop
+
+[Activity13](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity13.py)
+- summation of num using loop
+
+[Activity14](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity14.py)
+- ascending and descending
+
 [Code_challenge1](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge1.py)
 - diamond yarn
 
@@ -42,3 +54,6 @@ Repository of Computer Program developed in Python for our subject ITCS102 - Fir
 
 [Code_challenge4](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge4.py)
 - even or odd?
+
+[Code_challenge5](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge5.py)
+- manga recommender
