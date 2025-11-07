@@ -43,6 +43,36 @@ Repository of Computer Program developed in Python for our subject ITCS102 - Fir
 [Activity14](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity14.py)
 - ascending and descending
 
+[Activity15](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity15.py)
+- full sentence yarn?
+
+[Activity16](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity16.py)
+- new line daw
+
+[Activity17](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity17.py)
+- nested loop
+
+[Activity18](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity18.py)
+- number pyramid
+
+[Activity19](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity19.py)
+- ******
+
+[Activity20](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity20.py)
+- ha
+
+[Activity21](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity21.py)
+- washing
+
+[Activity23](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity23.py)
+- list
+
+[Activity24](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity24.py)
+- making my own function
+
+[Activity24_1](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity24_1.py)
+- import
+
 [Code_challenge1](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge1.py)
 - diamond yarn
 
