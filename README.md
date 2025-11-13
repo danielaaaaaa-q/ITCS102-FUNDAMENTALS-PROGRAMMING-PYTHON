@@ -1,8 +1,8 @@
 # ITCS102-PYTHON FUNDAMENTALS-ANTONIO
 Repository of Computer Program developed in Python for our subject ITCS102 - First Year First Semester
 
-[Activity1](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity1.py) - starting point of Python
-[Activity2](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity2.py) - having a variable
+- [Activity1](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity1.py) - starting point of Python
+- [Activity2](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity2.py) - having a variable
 [Activity3](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity3.py) - using an escape sequence
 [Activity4](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity4.py) - using input() function
 [Activity5](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity5.py) - evaluating what data types
