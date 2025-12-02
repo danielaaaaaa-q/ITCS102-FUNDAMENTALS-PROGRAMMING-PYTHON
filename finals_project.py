@@ -101,15 +101,19 @@ def escape_seq():
     ''')
 
 def conditional_statements():
-    print('''
-    Python conditional statements are commands that let a program decide what action to take based on a condition. They check whether something is true or false, and then run specific code depending on the result.
-    ''')
+    print('''Python conditional statements are commands that let a program decide what action to take based on a condition. They check whether something is true or false, and then run specific code depending on the result.''')
 
 def conditional_menu():
     print("\n\t----------------------------------------------------")
     print("\t\t\tMenu to Conditional Statements")
     print("\t\ta. If Statements\n\t\tb. If-Else Statements\n\t\tc. Elif Statements\n\t\td. Nested If Statements\n\t\te. Back to Main Menu")
     print("\t----------------------------------------------------") 
+
+def if_sub_menu():
+    print("\n\t----------------------------------------------------")
+    print("\t\t\tMenu to If Statements")
+    print("\t\ta. Learn about If Statements\n\t\tb. Example and Trial\n\t\tc. Back to Conditional Statements Menu")
+    print("\t----------------------------------------------------")
 
 def if_statements():
     print('''
@@ -125,7 +129,10 @@ def if_statements():
     Syntax:
     if condition:
         # code to be executed if condition is true  
-          
+    ''')
+
+def ex_trial_if():
+    print('''
     Example: #jeepney fare
 
     name = input("Input your name: ")
@@ -138,5 +145,20 @@ def if_statements():
 	    print("Hi,", name, "your student discount is", discount, "\n\t     Discounted fare is", new_fare)
     else:
 	    print("Sorry,", name," you are not eligible for student discount.")
+    
+    Let us run this example and input the following:
     ''')
 
+def run_ex():
+    name = input("Input your name: ")
+    isStudent = input("Are you a student (yes/no): ")
+    fare = eval(input("bayad: "))
+
+    if isStudent.lower() == "yes":
+        discount = fare * .2
+        new_fare = fare - discount
+        print("Hi,", name, "your student discount is", discount, "\n\t     Discounted fare is", new_fare)
+    else:
+        print("Sorry,", name," you are not eligible for student discount.")
+    return 
+    
