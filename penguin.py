@@ -60,16 +60,18 @@ while con == True:
                     os.system('cls')
                     print_menu()
                 elif men == 'e':
-                    Menu()
+                    sub_menu = False
+                    print(f"Hi, {name}! Welcome to Printing in Python.\n")
                 else:
                     print("Invalid input. Please try again")
-                    continue
-                continue
+                    #continue to sub-menu
+                    print(f"Hi, {name}! Welcome to Printing in Python.\n")
+                    print_menu()
+            continue
         elif opt == '2':
             print(f"Hi, {name}! Welcome to Conditional Statements in Python.\n")
             conditional_statements()
             conditional_menu()
-
             #repeating sub-menu for conditional statements topic
             cond_sub_menu = True
             while cond_sub_menu == True:
@@ -79,19 +81,48 @@ while con == True:
                     conditional_statements()
                     if_statements()
                     os.system('pause')
+                    ex_trial_if()
+                    run_ex_if = input("Do you want to try the example? (yes/no): ").lower()
+                    print("\n")
+                    if run_ex_if == 'yes':
+                        run_ex()
+                        print("\n")
+                    else:
+                        print("You chose not to run the example.")
+                    os.system('pause')
                     #continue to sub-menu
                     os.system('cls')
+                    print(f"Hi, {name}! Welcome to Conditional Statements in Python.\n")
                     conditional_menu()
                 elif answer == 'b':
-                    pass
+                    if_else_statements()
+                    os.system('pause')
+                    ex_trial_if_else()
+                    run_ex_if_else = input("Do you want to try the example? (yes/no): ").lower()
+                    print("\n")
+                    if run_ex_if_else == 'yes':
+                        run_ex_if_else()
+                        print("\n")
+                    else:
+                        print("You chose not to run the example.")
+                    os.system('pause')
+                    #continue to sub-menu
+                    os.system('cls')
+                    print(f"Hi, {name}! Welcome to Conditional Statements in Python.\n")
+                    conditional_menu()
                 elif answer == 'c':
                     pass
                 elif answer == 'd':
                     pass    
                 elif answer == 'e':
+                    cond_sub_menu = False
+                    print(f"Hi, {name}! Welcome to Conditional Statements in Python.\n")
                     Menu()
                 else:
                     print("Invalid input. Please try again")
+                    #continue to sub-menu
+                    print(f"Hi, {name}! Welcome to Conditional Statements in Python.\n")
+                    conditional_menu()
                     continue
         elif opt == '3':
             pass        
@@ -102,8 +133,11 @@ while con == True:
         elif opt == '6':
             print(f"Thank you for using the program, {name}! Goodbye!")
             break
+        else:
+            print("Invalid input. Please try again.")
+            continue
     elif option == 'no':
-        print('Okay, Thank You! Exiting the program...')
+        print(f'Thank You for using the program, {name}! Goodbye!')
         break
     else:
         print("Invalid output")
