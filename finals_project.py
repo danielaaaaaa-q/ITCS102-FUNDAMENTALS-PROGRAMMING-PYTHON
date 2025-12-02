@@ -109,12 +109,6 @@ def conditional_menu():
     print("\t\ta. If Statements\n\t\tb. If-Else Statements\n\t\tc. Elif Statements\n\t\td. Nested If Statements\n\t\te. Back to Main Menu")
     print("\t----------------------------------------------------") 
 
-def if_sub_menu():
-    print("\n\t----------------------------------------------------")
-    print("\t\t\tMenu to If Statements")
-    print("\t\ta. Learn about If Statements\n\t\tb. Example and Trial\n\t\tc. Back to Conditional Statements Menu")
-    print("\t----------------------------------------------------")
-
 def if_statements():
     print('''
     An if statement is a conditional statement that executes a block of code if a specified condition is true.
@@ -135,6 +129,8 @@ def ex_trial_if():
     print('''
     Example: #jeepney fare
 
+    This example shows how to use an if statement to check if a user is eligible for a student discount on jeepney fare.
+
     name = input("Input your name: ")
     isStudent = input("Are you a student (yes/no): ")
     fare = eval(input("bayad: "))
@@ -146,7 +142,6 @@ def ex_trial_if():
     else:
 	    print("Sorry,", name," you are not eligible for student discount.")
     
-    Let us run this example and input the following:
     ''')
 
 def run_ex():
@@ -161,4 +156,37 @@ def run_ex():
     else:
         print("Sorry,", name," you are not eligible for student discount.")
     return 
+
+def if_else_statements():
+    print('''
+    An if-else statement is a conditional statement that executes one block of code if a specified condition is true, and another block of code if the condition is false.
+
+    Syntax:
+    if condition:
+        # code to be executed if condition is true  
+    else:
+        # code to be executed if condition is false  
+    ''')
     
+def if_else_ex():
+    print('''
+    Example:
+
+    In this example, we will check if a number that the user inputs is even or odd.
+          
+    number = eval(input("Input a number: "))
+
+    if number % 2 == 0:          #checks if the number is divisible by 2
+	    print("EVEN")            #if true, print EVEN
+    else:
+	    print("ODD")             #if false, print ODD
+    ''')
+
+def if_else_run():
+    number = eval(input("Input a number: "))
+
+    if number % 2 == 0:          #checks if the number is divisible by 2
+        print("EVEN")            #if true, print EVEN
+    else:
+        print("ODD")             #if false, print ODD
+    return
