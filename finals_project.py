@@ -3,7 +3,7 @@ from penguin import *
 def Menu():
     print("----------------------------------------------------")
     print("\t\t~ MAIN MENU ~")
-    print("\t1. Printing in Python\n\t2. Conditional Statements\n\t3. Loops\n\t4. Functions\n\t5. Listing\n\t6. Exit")
+    print("\t1. Printing in Python with variables\n\t2. Conditional Statements\n\t3. Operators\n\t4. Loops\n\t5. Lists\n\t6. Functions\n\t7. Exit")
     print("----------------------------------------------------")
 
 def printing_opt():
@@ -11,7 +11,7 @@ def printing_opt():
 
 def print_menu():
     print("\n\t----------------------------------------------------")
-    print("\t\t\tMenu to Printing in Python")
+    print("\t\t\t~ Menu to Printing in Python ~")
     print("\t\ta. Simple Printing\n\t\tb. Print with numbers\n\t\tc. Printing with string and concatenation\n\t\td. Escape Sequence\n\t\te. Back to Main Menu")
     print("\t----------------------------------------------------")
 
@@ -63,6 +63,8 @@ def print_cont():
     Hello, my name is John and I am 19 years old
 
     2. Using commas
+    
+    #we use commas to separate the variables and strings inside the print() function
 
     city = "Lucena City" 
     year = 2015
@@ -72,6 +74,8 @@ def print_cont():
     I live in Lucena City since 2015
           
     3. Formatted String (f-strings)
+          
+    #we use f-strings to embed expressions inside string literals, using curly braces {}
           
     country = "Philippines"
     province = "Quezon Province"
@@ -83,7 +87,7 @@ def print_cont():
 
 def escape_seq():
     print('''
-    Escape sequences are special characters that are used to represent certain whitespace or non-printable characters in a string. 
+    ~ Escape sequences are special characters that are used to represent certain whitespace or non-printable characters in a string. 
     Some common escape sequences in Python include:
 
     \\n : Newline
@@ -105,13 +109,13 @@ def conditional_statements():
 
 def conditional_menu():
     print("\n\t----------------------------------------------------")
-    print("\t\t\tMenu to Conditional Statements")
-    print("\t\ta. If Statements\n\t\tb. If-Else Statements\n\t\tc. Elif Statements\n\t\td. Nested If Statements\n\t\te. Back to Main Menu")
+    print("\t\t\t~ Menu to Conditional Statements ~")
+    print("\t\ta. If Statements\n\t\tb. If-Else Statements\n\t\tc. If-Elif-Else Statements\n\t\td. Nested If Statements\n\t\te. Back to Main Menu")
     print("\t----------------------------------------------------") 
 
 def if_statements():
     print('''
-    An if statement is a conditional statement that executes a block of code if a specified condition is true.
+    ~ An if statement is a conditional statement that executes a block of code if a specified condition is true.
           
     == - equals
     != - not equals
@@ -159,7 +163,7 @@ def run_ex():
 
 def if_else_statements():
     print('''
-    An if-else statement is a conditional statement that executes one block of code if a specified condition is true, and another block of code if the condition is false.
+    ~ An if-else statement is a conditional statement that executes one block of code if a specified condition is true, and another block of code if the condition is false.
 
     Syntax:
     if condition:
@@ -189,4 +193,108 @@ def if_else_run():
         print("EVEN")            #if true, print EVEN
     else:
         print("ODD")             #if false, print ODD
+    return
+
+def if_elif_else_statement():
+    print('''
+    ~ An if-elif-else statement allows for checking multiple conditions sequentially. If the if condition is False, the program checks the elif conditions in order. If none of the if or elif conditions are True, the else block is executed.
+          
+    Syntax:
+    if conditional:
+        #code to be executed if condition is true
+    elif contional:
+        #code to be executed if elif condition is true
+    else:
+        #code to be executed if all conditions are false
+    
+    *Note: There can be multiple elif statements, but only one else statement is allowed at the end.      
+
+    ''')
+
+def if_elif_else_ex():
+    print('''
+    Example:
+          
+    In this example, we will determine the grade of a student based on their score.
+          
+    score = eval(input("Enter your score (0-100): "))
+    
+    if score >= 90:
+        print("Grade A")
+    elif score >=80:
+        print("Grade B")
+    elif score >=70:
+        print("Grade C")
+    else:
+        print("Grade F")
+          
+    - Output:
+    If the user inputs 85, the output will be "Grade B".
+    If the user inputs 65, the output will be "Grade F".
+
+    ''')
+
+def if_elif_else_run():
+    score = eval(input("Enter your score (0-100): "))
+    
+    if score >= 90:
+        print("Grade A")
+    elif score >=80:
+        print("Grade B")
+    elif score >=70:
+        print("Grade C")
+    else:
+        print("Grade F")
+    return
+
+def nest_statements():
+    print('''
+    ~ A nested if statement is an if statement placed inside another if statement, used to test multiple, dependent conditions. This structure allows a program or formula to execute different actions based on a series of tests, where the result of the first test determines if the inner if statement is even evaluated. 
+    
+    Syntax:
+    if conditional:
+        #code to be executed if condition is true
+        if conditional1:
+            #code to be executed if condition1 is true
+        else:
+            #code to be executed if condition1 is false
+    else:
+        #code to be executed if condition is false
+
+    ''')
+
+def nest_example():
+    print('''
+    Example:
+          
+    *In this example, we will check your grade and attendance to determine if you pass the course.
+          
+    grade = 90
+    attendance = 85
+          
+    if grade >= 75:
+        if attendance >= 80:
+            print("You passed the course!")
+        else:
+            print("Improve your attendance.")
+    else:
+        print("You failed the subject.")
+
+    - Output:
+    If grade is 90 and attendance is 85, the output will be "You passed the course!".
+    If grade is 70 and attendance is 85, the output will be "You failed the subject.".
+    If grade is 80 and attendance is 75, the output will be "Improve your attendance."
+    ''')
+
+def nest_run():
+    grade = input("Enter your grade: ")
+    attendance = input("Enter your attendance percentage: ")
+          
+    if grade >= 75:
+        if attendance >= 80:
+            print("You passed the course!")
+        else:
+            print("Improve your attendance.")
+    else:
+        print("You failed the subject.")
     return
