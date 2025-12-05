@@ -298,3 +298,440 @@ def nest_run():
     else:
         print("You failed the subject.")
     return
+
+def operators():
+    print('''
+    ~ In Python programming, Operators in general are used to perform operations on values and variables.
+''')
+    
+def operators_menu():
+    print("\n\t----------------------------------------------------")
+    print("\t\t\t~ Menu to Operators ~")
+    print("\t\ta. Arithmetic Operators\n\t\tb. Assigment Operators\n\t\tc. Relational Operators\n\t\td. Logical Operators\n\t\te. Back to Main Menu")
+    print("\t----------------------------------------------------")
+
+def arith():
+    print('''
+    ~ Arithmetic operators are used to perform basic mathematical operations like addition, subtraction, multiplication and division.
+          
+    Operators:
+    + : Addition
+    - : Subtraction
+    * : Multiplication
+    / : Division            #returns float (decimal number)
+    % : Modulus             #remainder of division 
+    ** : Exponentiation
+    // : Floor Division     #returns integer (whole number) by removing the decimal part
+    
+    ''')
+
+def arith_ex():
+    print('''
+    ~ In this example, we will perform various arithmetic operations on two numbers provided by the user.      
+
+    n1 = eval(input("Enter the first number --> "))
+    n2 = eval(input("Enter the second number --> "))
+
+    a = n1 + n2
+    b = n1 - n2
+    c = n1 * n2
+    d = n1 / n2
+
+    solution = ((n1 / n2) * 200 - 5) // 500
+    print("\\nThe sum of", n1,"and", n2,"is", a)
+    print("The difference of", n1,"and", n2,"is", b)
+    print("The product of", n1,"and", n2,"is", c)
+    print("The quotient of", n1,"and", n2,"is", d)
+    print(n1, "exponent by", n2,"is", n1**n2)
+    print("The remainder of", n1,"and", n2,"is", n1 % n2)
+    print("The floor division of", n1,"and", n2,"is", n1//n2)
+
+    - Output:
+    If the user inputs 10 (n1) and 3 (n2), the output will be:
+          
+    The sum of 10 and 3 is 13
+    The difference of 10 and 3 is 7    
+    The product of 10 and 3 is 30
+    The quotient of 10 and 3 is 3.33
+    10 exponent by 3 is 1000
+    The remainder of 10 and 3 is 1
+    The floor division of 10 and 3 is 3
+    ''')
+
+def arith_run():
+    n1 = eval(input("Enter the first number --> "))
+    n2 = eval(input("Enter the second number --> "))
+
+    a = n1 + n2
+    b = n1 - n2
+    c = n1 * n2
+    d = n1 / n2
+
+    solution = ((n1 / n2) * 200 - 5) // 500
+    print("\nThe sum of", n1,"and", n2,"is", a)
+    print("The difference of", n1,"and", n2,"is", b)
+    print("The product of", n1,"and", n2,"is", c)
+    print("The quotient of", n1,"and", n2,"is", d)
+    print(n1, "exponent by", n2,"is", n1**n2)
+    print("The remainder of", n1,"and", n2,"is", n1 % n2)
+    print("The floor division of", n1,"and", n2,"is", n1//n2)   
+    return
+
+def assignment():
+    print('''
+    ~ Assignment Operators are used to assign values to variables.
+    
+    Operators:
+    = : Assigns value from right side to left side
+    += : Adds and assigns value
+    -= : Subtracts and assigns value
+    *= : Multiplies and assigns value
+    /= : Divides and assigns value
+    %= : Modulus and assigns value
+    **= : Exponentiation and assigns value
+    //= : Floor Division and assigns value   
+
+    ''')
+
+def assignment_ex():
+    print('''
+    ~ In this example, we will perform various assignment operators on one number. 
+   
+    a = 7
+
+    print("The value of a is", a)
+
+    a += 13
+    a -= 17
+    a *= 3
+    a += 18
+    a /= 2
+
+    print("The value of a is", a)
+
+    - Output:
+    The value of a is 7
+    The value of a is 13.5
+          
+    ''')
+
+def run_ass():
+    
+    a = eval(input("Enter a number: "))
+
+    print("The value of a is", a)
+
+    a += 13
+    a -= 17
+    a *= 3
+    a += 18
+    a /= 2
+
+    print("The value of a is", a)
+    return
+
+def relational():
+    print('''
+    ~ Relational Operators, also know as Comparison Operators, are used to compare two values and determine the relationship between them. They always return a boolean value: True if the comparison is true, and False otherwise.
+
+    Operators:
+    == : Equal to
+    != : Not equal to 
+    > : Greater than 
+    < : Less than
+    >= : Greater than or equal to
+    <= : Less than or equal to
+
+    ''')
+
+def relational_ex():
+    print('''
+    ~ Example:
+          
+    #1
+    balance = 3000
+    withdrawal = 600
+
+    print(balance >= withdrawal)
+          
+    - Output:
+    True
+
+    #2
+    name1 = "millicent"
+    name2 = "Millicent"
+
+    print(name1 == name2)
+
+    - Output:
+    False
+
+    ''')
+
+def run_relational():
+    num = eval(input("Enter a number to compare: "))
+    number = eval(input("Enter another one: "))
+
+    print(f"== \n- Output: {num == number}")
+    print(f">= \n- Output: {num >= number}")
+    print(f"<= \n- Output: {num <= number}")
+    
+def logical():
+    print('''
+    ~ Logical Operators perform Logical AND, Logical OR and Logical NOT operations. It is used to combine conditional statements.
+
+    Operators:
+    and : Returns True if both statements are true
+    or : Returns True if one of the statement is true
+    not : Reverses the result, returns False if the result is true
+
+    ''')
+
+def logical_ex():
+    print('''
+    *Example:
+          
+    a = True
+    b = False
+    print(a and b)
+    print(a or b)
+    print(not a)    
+
+    - Output:
+    False
+    True
+    False
+          
+''')
+    
+def run_logic():
+    x = eval(input("Enter a number: "))
+    y = eval(input("Enter a number: "))
+    print("x > 0 and y > 5\n- Output: ")
+    print(x > 0 and y > 5) 
+    print("x < 0 or y > 5\n- Output: ") 
+    print(x < 0 or y > 5)
+    print("not y < 5\n- Output: ")
+    print(not y < 5)
+    return
+
+def loops():
+    print('''
+    ~ Python provides two primary types of loops for repetitive execution of code blocks: for loops and while loops.
+
+''')
+    
+def loops_menu():
+    print("\n\t----------------------------------------------------")
+    print("\t\t\t~ Menu to Loops ~")
+    print("\t\ta. For Loops\n\t\tb. Nested for loops\n\t\tc. While Loops\n\t\td. Back to Main Menu")
+    print("\t----------------------------------------------------")
+
+def for_loops():
+    print('''
+    ~ for loop repeats a block of code many times depending on the numbers given in the range()
+    ~ They execute a block of code for each item in the sequence.
+
+    Syntax:
+    for variable x in range (Start, Stop, Step)
+          code block
+
+    # variable x - name of the loop variable
+    # range(Start, Stop, Step) - creates a list of numbers starting from start, ending before stop, and changing by step
+    # start - where the count begins
+    # stop - where the counting end (but not included)
+    # step - how much it increases or decreases each time      
+    
+    ''')
+
+def loops_ex_menu():
+    print("\n\t----------------------------------------------------")
+    print("\t\t\t~ Menu to Examples of for loop ~")
+    print("\t\ta. Basic for loop\n\t\tb. Summation using for loop\n\t\tc. New Line\n\t\td. Ascending and Descending\n\t\te. Factorial\n\t\tf. Multiplication Table\n\t\tg. Timer\n\t\th. Back to Main Menu")
+    print("\t----------------------------------------------------")
+
+def for_ex():
+    #activity 12
+    print('''
+    *Example
+    
+    #print("Hello World!")
+
+    for i in range(1, 10, 1):
+        print("Hello World!")
+          
+    - Ouput:
+    ''')
+
+def for_ex1():
+    #print("Hello World!")
+
+    for i in range(1, 10, 1):
+        print("Hello World!")
+    return
+
+def for_ex2():
+    print('''
+    *Example:
+          
+    num = 0
+
+    for i in range(1, 11):
+        number = eval(input("Enter a number:"))
+        num += number
+        print("The current sum is:", num)
+    print(num)
+
+    - Output:
+          
+''')
+
+def for_ex_2():
+    #activity 13
+    num = 0
+
+    for i in range(1, 11):
+        number = eval(input("Enter a number:"))
+        num += number
+        print("The current sum is:", num)
+    print(num)
+    return
+
+def for_ex3():
+    print('''
+    *Example:
+    
+    #-- ascending order --
+    for i in range(1, 11):
+        print(i)
+
+    #-- descending order --
+    for i in range(10, 0, -1):
+        print(i)  
+
+    - Output:
+          
+''')
+
+def for_ex_3():
+    #activity 14
+    #-- ascending order --
+    for i in range(1, 11):
+            print(i)
+
+    #-- descending order --
+    for i in range(10, 0, -1):
+        print(i)
+
+def for_ex4():
+    print('''
+    *Example:
+          
+    #new line in print
+
+    for i in range(1, 11):
+        print(i, end=" --- ")
+
+    - Output:      
+    
+''')
+
+def for_ex_4():
+    #activity 16
+    #new line in print
+
+    for i in range(1, 11):
+        print(i, end=" --- ")
+
+def for_ex5():
+    print('''
+    *Example:
+          
+    print("\t\tFACTORIAL PROGRAM")
+
+    fact = eval(input("Enter a numbe ---> "))
+
+    num = 1
+    for y in range(fact, 0, -1):
+        print(y)
+        num *= y
+    print("\nThe factorial of", fact, "is", num)
+
+    - Output:
+
+''')
+    
+def for_ex_5():
+    #cc6
+    print("\t\tFACTORIAL PROGRAM")
+
+    fact = eval(input("Enter a numbe ---> "))
+
+    num = 1
+    for y in range(fact, 0, -1):
+        print(y)
+        num *= y
+    print("\nThe factorial of", fact, "is", num)
+    return
+
+def for_ex6():
+    print('''
+    *Example:
+          
+    
+    print("MULTIPLICATION TABLE MAKER")
+
+    num = eval(input("Enter a number ---> "))
+
+    print("\nThe multiplication table for", num,":")
+    for x in range(1, 11):
+        print(num, "x", x, "=", num * x)5
+
+    - Output:
+          
+''')
+    
+def for_ex_6():
+    #cc8
+    print("MULTIPLICATION TABLE MAKER")
+
+    num = eval(input("Enter a number ---> "))
+
+    print("\nThe multiplication table for", num,":")
+    for x in range(1, 11):
+        print(num, "x", x, "=", num * x)
+    return
+
+def for_ex7():
+    print('''
+    *Example: 
+           
+    print("⏳ COUNTDOWN TIMER SIMULATOR")
+
+    num = eval(input("Enter the starting number for countdown: "))
+
+    print("\nCountdown started:")
+
+    for x in range(num, 0, -1):
+        print(x)
+    print("Liftoff!")
+
+    - Output:
+
+''')
+
+def for_ex_7():
+    #cc9
+    print("⏳ COUNTDOWN TIMER SIMULATOR")
+
+    num = eval(input("Enter the starting number for countdown: "))
+
+    print("\nCountdown started:")
+
+    for x in range(num, 0, -1):
+        print(x)
+    print("Liftoff!")
+    return
+
+
+
