@@ -29,6 +29,8 @@ Repository of Computer Program developed in Python for our subject ITCS102 - Fir
 - [Activity25_1](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity25_1.py) - define function
 - [Activity25_2](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity25_2.py) - define function(2)
 - [Activity26](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity26.py) - list ulit
+- [Activity27](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity27.py) - dictionary
+- [Activity28](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity28.py) - snake game
 - [Code_challenge1](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge1.py) - diamond yarn
 - [Code_challenge2](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge2.py) - bank
 - [Code_challenge3](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge3.py) - log-in
@@ -44,3 +46,4 @@ Repository of Computer Program developed in Python for our subject ITCS102 - Fir
 - [Code_challenge13](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge13.py) - xmas tree
 - [Code_challenge14](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge14.py) - odd number compiler
 - [Code_challenge15](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge15.py) - anime list
+- [Code_challenge16](https://github.com/danielaaaaaa-q/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge16.py) - student info
